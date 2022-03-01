@@ -219,7 +219,7 @@ const Banner = () => {
 
                                 <a
                                   className="rn-btn animated-button victoria-three"
-                                  href="#contacts"
+                                  href="https://app.finodao.com"
                                 >
                                   <span>Open App</span>
                                 </a>
