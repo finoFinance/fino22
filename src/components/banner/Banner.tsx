@@ -146,17 +146,28 @@ const Banner = () => {
                               type="button"
                               onClick={(e) => {
                                 e.preventDefault();
-                                window.open(
-                                  'https://fino.tools/',
-                                  '_blank'
-                                );
+                                window.open('https://fino.tools/', '_blank');
                               }}
                               className="glow-on-hover"
                             >
                               APY Calculator
                             </button>
                           </li>
-
+                          <li className="instagram">
+                            <button
+                              type="button"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                window.open(
+                                  'https://solidity.finance/audits/FinoDAOToken',
+                                  '_blank'
+                                );
+                              }}
+                              className="glow-on-hover"
+                            >
+                              Audit Report
+                            </button>
+                          </li>
                         </ul>
                         <p className="addressTxt">
                           FINO Contract Address:
